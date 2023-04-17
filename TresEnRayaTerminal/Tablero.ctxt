@@ -1,0 +1,21 @@
+#BlueJ class context
+comment0.target=Tablero
+comment1.params=
+comment1.target=Tablero()
+comment2.params=
+comment2.target=void\ IniTab()
+comment3.params=
+comment3.target=void\ GrafTab()
+comment4.params=pos\ sim
+comment4.target=int\ ColocJug(int,\ char)
+comment5.params=
+comment5.target=int\ ColocCPU()
+comment6.params=
+comment6.target=int\ elecganCPU()
+comment7.params=
+comment7.target=int\ elecbloqCPU()
+comment8.params=sim
+comment8.target=boolean\ Gana(char)
+comment9.params=
+comment9.target=void\ Espacio()
+numComments=10
