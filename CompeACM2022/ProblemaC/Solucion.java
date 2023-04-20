@@ -10,8 +10,8 @@ import java.util.ArrayList;
 public class Solucion
 {
     public static Scanner sc; //Scanner por donde leemos las instrucciones y datos
-    private static LEGListaEnlazada lista;
-    private static char[][] huerto;
+    protected static LEGListaEnlazada lista;
+    protected static char[][] huerto;
     
     //Programa que dado un huerto de tamaño variable devuelva la iteraccion con mayor biodiversidad
     public static void main(String args[]){
@@ -46,7 +46,7 @@ public class Solucion
         System.out.println("Numero de huertos en bucle: " + cont);
     }
     
-    private static void iniciarHuerto(){
+    protected static void iniciarHuerto(){
         String input = "";
         String line;
         
@@ -66,7 +66,6 @@ public class Solucion
         for(int i = 0; i < numRow; i++){
             for(int j = 0; j < numCol; j++){
                 huerto[i][j] = rows[i].charAt(j);
-
             }
         }
     }
@@ -74,7 +73,7 @@ public class Solucion
     //Si es un terreno -> # y hay una planta madura adyacente -> O, convertir en brote -> o
     //Si es un brote -> o y hay 3 plantas maduras o mas adyacentes -> O, convertir en -> #, caso contrario en -> O
     //Si es una planta -> O y hay 6 plantas, maduras o brotes en casillas adyacentes, convertir en -> #
-    private static void cambiarHuerto(){
+    protected static void cambiarHuerto(){
         char[][] aux = new char[huerto.length][huerto[0].length];
         boolean cambiado = false;
         int cont = 0;
@@ -134,7 +133,7 @@ public class Solucion
         huerto = aux;
     }
     
-    private static void imprimirHuerto(){
+    protected static void imprimirHuerto(){
         for(int i = 0; i < huerto.length; i++){
             for(int j = 0; j < huerto[0].length; j++){
                 System.out.print(huerto[i][j]);
