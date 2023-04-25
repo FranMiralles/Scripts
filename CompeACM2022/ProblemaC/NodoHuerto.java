@@ -1,4 +1,4 @@
-package CompeACM2022.ProblemaC;
+package ProblemaC;
 
 
 public class NodoHuerto

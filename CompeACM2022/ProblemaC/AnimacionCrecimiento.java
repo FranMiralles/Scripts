@@ -1,4 +1,4 @@
-package CompeACM2022.ProblemaC;
+package ProblemaC;
 
 import javax.swing.Timer;
 import java.awt.event.ActionEvent;

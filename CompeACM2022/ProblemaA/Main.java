@@ -16,9 +16,7 @@ public class Main
     public static int plants; //Numero de plantas maduras que tienes
     
     public static void main(String args[]){
-        try{
-            sc = new Scanner(new File("CompeACM2022/ProblemaA/input.txt"));
-        }catch(FileNotFoundException e){}
+        sc = new Scanner(System.in);
         //Entrada huerto
         iniciarHuerto();
         //Entrada posicion inicio y semillas inicio

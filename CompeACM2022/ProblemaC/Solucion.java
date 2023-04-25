@@ -1,4 +1,5 @@
-package CompeACM2022.ProblemaC;
+package ProblemaC;
+
 
 import java.util.Scanner;
 import java.io.File;
@@ -16,9 +17,7 @@ public class Solucion
     //Programa que dado un huerto de tamaño variable devuelva la iteraccion con mayor biodiversidad
     public static void main(String args[]){
         System.out.print("\u000C");
-        try{
-            sc = new Scanner(new File("CompeACM2022/ProblemaC/input.txt"));
-        }catch(FileNotFoundException e){}
+        sc = new Scanner(System.in);
         //Entrada huerto
         lista = new LEGListaEnlazada();
         iniciarHuerto();
