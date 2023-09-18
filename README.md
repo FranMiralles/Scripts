@@ -1,2 +1,2 @@
-# JavaPrograms
-Some programs using Java
+# Scripts
+Some scripts, solutions and programmes.
