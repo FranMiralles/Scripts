@@ -1,7 +1,7 @@
 #import openai as ai
 
 
-#ai.api_key = "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"
+#ai.api_key = 
 #res = ai.Completion.create(engine="gpt-3.5-turbo", prompt="¿Qué es chatGPT?", max_tokens=2048)
 
 #print(res.choices[0].text)
